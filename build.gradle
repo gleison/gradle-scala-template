@@ -1,0 +1,11 @@
+apply plugin: 'scala'
+
+defaultTasks 'clean', 'compileScala'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+     compile 'org.scala-lang:scala-library:2.11.7'
+}
